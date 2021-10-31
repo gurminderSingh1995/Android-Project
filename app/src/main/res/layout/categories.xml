@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Card View widget-->
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="200dp"
+    android:padding="10dp"
+    card_view:contentPadding="8dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="8dp"
+    card_view:cardBackgroundColor="#eee"
+    android:layout_margin="10dp"
+
+    >
+    <ImageView
+        android:id="@+id/imgCategory"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/category1"/>
+
+    <!--Text View over Card View-->
+    <TextView
+        android:id="@+id/txtCategoryName"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="15dp"
+        android:text="Demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"/>
+
+
+
+</androidx.cardview.widget.CardView>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="200dp"-->
+<!--    android:layout_height="300dp"-->
+<!--    android:orientation="horizontal">-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            app:cardCornerRadius="5dp"-->
+<!--            >-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imgCategory"-->
+<!--                android:layout_width="130dp"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                app:srcCompat="@drawable/vpager1" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtCategoryName"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Category name"-->
+<!--                android:layout_gravity="center"/>-->
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->

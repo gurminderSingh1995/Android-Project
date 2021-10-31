@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "913201256768",
+    "project_id": "baking-bella",
+    "storage_bucket": "baking-bella.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913201256768:android:19d16e72d84f7f04d882a5",
+        "android_client_info": {
+          "package_name": "com.example.bakingbella"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913201256768-r4gsu77fdojun24s7aphtgfhegof9la6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bakingbella",
+            "certificate_hash": "6990d36c8a04c5fb938dfc65479b92f388b69917"
+          }
+        },
+        {
+          "client_id": "913201256768-kupnand2gg7uva3faps1if4fb1ne098b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkPqpDo_QzHdm3Oxib73nfCrnGg7KybR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913201256768-kupnand2gg7uva3faps1if4fb1ne098b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

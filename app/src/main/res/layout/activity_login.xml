@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".LoginActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Baking Bella"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:layout_marginTop="260sp"
+        android:textColor="@color/teal_200"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:justificationMode="inter_word"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:text="Admin Login" />
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:textSize="16sp"
+        android:text="User Login" />
+
+</RelativeLayout>
